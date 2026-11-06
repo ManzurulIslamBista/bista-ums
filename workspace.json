@@ -1,0 +1,23 @@
+{
+  "format": "postpilot-backup",
+  "version": 2,
+  "sensitive": true,
+  "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
+  "exportedAt": "2026-11-06T06:28:14.628775Z",
+  "collections": [],
+  "environments": [],
+  "globals": [],
+  "workplace": {
+    "id": "fce7aa7f-98c2-40cc-9b93-3f49c13388e3",
+    "name": "Bista Ums",
+    "folderPath": "C:\\Users\\Md Manzurul Islam\\OneDrive\\Documents\\PostPilot\\Workplaces\\Bista_Ums",
+    "gitRepoUrl": "https://github.com/ManzurulIslamBista/bista-ums",
+    "gitBranch": "main",
+    "gitToken": null,
+    "createdAt": "2026-11-06T06:25:34.541983Z",
+    "updatedAt": "2026-11-06T06:26:03.513213Z",
+    "lastSyncedAt": null,
+    "lastSyncedSha": null,
+    "activeEnvironment": null
+  }
+}
