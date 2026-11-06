@@ -3,10 +3,10 @@
   "version": 2,
   "sensitive": true,
   "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
-  "exportedAt": "2026-11-06T06:28:47.707370Z",
+  "exportedAt": "2026-11-06T08:42:53.635Z",
   "collections": [
     {
-      "name": "we",
+      "name": "My collection",
       "variables": [],
       "folders": [],
       "requests": [
@@ -15,7 +15,7 @@
           "name": "New Request",
           "order": 0,
           "method": "get",
-          "url": "sdd",
+          "url": "{{baseUrl}}/todos/1",
           "headers": [],
           "queryParams": [],
           "body": {
@@ -63,17 +63,29 @@
       ]
     }
   ],
-  "environments": [],
+  "environments": [
+    {
+      "name": "Staging",
+      "variables": [
+        {
+          "key": "baseUrl",
+          "value": "https://jsonplaceholder.typicode.com",
+          "secret": false,
+          "enabled": true
+        }
+      ]
+    }
+  ],
   "globals": [],
   "workplace": {
-    "id": "fce7aa7f-98c2-40cc-9b93-3f49c13388e3",
-    "name": "Bista Ums",
-    "folderPath": "C:\\Users\\Md Manzurul Islam\\OneDrive\\Documents\\PostPilot\\Workplaces\\Bista_Ums",
+    "id": "95bba4e7-3ba2-48b0-8958-f4e33dbfb12b",
+    "name": "Demo Test Workspace",
+    "folderPath": "PostPilot/Workplaces/Demo_Test_Workspace",
     "gitRepoUrl": "https://github.com/ManzurulIslamBista/bista-ums",
     "gitBranch": "main",
     "gitToken": null,
-    "createdAt": "2026-11-06T06:25:34.541983Z",
-    "updatedAt": "2026-11-06T06:28:17.262367Z",
+    "createdAt": "2026-11-06T08:37:44.363Z",
+    "updatedAt": "2026-11-06T08:37:44.363Z",
     "lastSyncedAt": null,
     "lastSyncedSha": null,
     "activeEnvironment": null
