@@ -3,7 +3,7 @@
   "version": 2,
   "sensitive": true,
   "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
-  "exportedAt": "2026-11-06T08:42:53.635Z",
+  "exportedAt": "2026-11-06T08:50:04.912Z",
   "collections": [
     {
       "name": "My collection",
@@ -61,6 +61,12 @@
           }
         }
       ]
+    },
+    {
+      "name": "Auth & Users API",
+      "variables": [],
+      "folders": [],
+      "requests": []
     }
   ],
   "environments": [
@@ -85,7 +91,7 @@
     "gitBranch": "main",
     "gitToken": null,
     "createdAt": "2026-11-06T08:37:44.363Z",
-    "updatedAt": "2026-11-06T08:37:44.363Z",
+    "updatedAt": "2026-11-06T08:47:01.509Z",
     "lastSyncedAt": null,
     "lastSyncedSha": null,
     "activeEnvironment": null
