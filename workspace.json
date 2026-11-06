@@ -3,8 +3,66 @@
   "version": 2,
   "sensitive": true,
   "notice": "This file contains secrets (variable values, tokens, passwords, API keys) in plain text. Keep it private.",
-  "exportedAt": "2026-11-06T06:28:14.628775Z",
-  "collections": [],
+  "exportedAt": "2026-11-06T06:28:47.707370Z",
+  "collections": [
+    {
+      "name": "we",
+      "variables": [],
+      "folders": [],
+      "requests": [
+        {
+          "folderId": null,
+          "name": "New Request",
+          "order": 0,
+          "method": "get",
+          "url": "sdd",
+          "headers": [],
+          "queryParams": [],
+          "body": {
+            "type": "none",
+            "rawContentType": "json",
+            "rawText": "",
+            "formFields": [],
+            "urlEncodedFields": [],
+            "graphqlQuery": "",
+            "graphqlVariables": "{}"
+          },
+          "auth": {
+            "type": "inherit",
+            "apiKeyName": "",
+            "apiKeyValue": "",
+            "apiKeyLocation": "header",
+            "bearerToken": "",
+            "basicUsername": "",
+            "basicPassword": "",
+            "awsAccessKey": "",
+            "awsSecretKey": "",
+            "awsRegion": "us-east-1",
+            "awsService": "execute-api",
+            "awsSessionToken": "",
+            "jwtSecret": "",
+            "jwtAlgorithm": "hs256",
+            "jwtPayload": "{}",
+            "jwtHeaderPrefix": "Bearer",
+            "oauth2GrantType": "clientCredentials",
+            "oauth2AccessTokenUrl": "",
+            "oauth2AuthorizationUrl": "",
+            "oauth2RedirectUri": "",
+            "oauth2ClientId": "",
+            "oauth2ClientSecret": "",
+            "oauth2ClientAuthentication": "basicHeader",
+            "oauth2Scope": "",
+            "oauth2Username": "",
+            "oauth2Password": "",
+            "oauth2Audience": "",
+            "oauth2AccessToken": "",
+            "oauth2RefreshToken": "",
+            "oauth2TokenExpiry": null
+          }
+        }
+      ]
+    }
+  ],
   "environments": [],
   "globals": [],
   "workplace": {
@@ -15,7 +73,7 @@
     "gitBranch": "main",
     "gitToken": null,
     "createdAt": "2026-11-06T06:25:34.541983Z",
-    "updatedAt": "2026-11-06T06:26:03.513213Z",
+    "updatedAt": "2026-11-06T06:28:17.262367Z",
     "lastSyncedAt": null,
     "lastSyncedSha": null,
     "activeEnvironment": null
